@@ -12,6 +12,8 @@ if (myGrade >= 90) {
 } else {
     console.log("F");
 }
+// else statement should be the remainder of the percentages represented by F
+
 myGrade = 85;
 console.log(myGrade);
 
@@ -32,6 +34,9 @@ switch (true) {
         console.log("F");
         break;
 }
+
+// Personally I prefer utilizing else if statements as it is easier to follow along.
+// Switch statements definitely look cleaner in comparison to if else statements as it is less bulky.
 
 for (let i = 1; i <= 100; i++) {
     console.log(i);
